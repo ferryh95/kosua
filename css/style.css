@@ -223,7 +223,27 @@ nav li a {
     width:100%;
     height:1px;
 }
+.pickup-check{
+    margin-top:40px;
+}
 
+.button-pickup-check{
+    background-color: rgba(116, 50, 92, 1);
+    padding:10px 20px;
+    border-radius:30px;
+    margin-left:30px;
+}
+
+.pickup-check-text{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pickup-check-text,
+.button-pickup-check{
+    display: inline-block;
+}
 /*emergency alert*/
 .emergency-alert{
     color: rgba(132, 132, 132, 1);
@@ -416,4 +436,120 @@ nav li a {
     font-size: 16px;
     font-weight: 600;
 }
+
+/*article*/
+.article{
+    padding:50px;
+}
+
+.article-text{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 32px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #7B2460 0%, rgba(123, 36, 96, 0.854167) 25%, #AA4C8F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.article-text-bottom{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 16px;
+    margin-bottom:30px;
+}
+
+.article-detail{
+    padding:0 150px;
+}
+
+.detail-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top:10px;
+}
+.detail-date{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color:rgba(49, 49, 49, 1);
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.detail-tag{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    border:1px solid black;
+    border-radius: 20px;
+    padding:5px 15px;
+}
+
+.article-check-text,
+.button-article-check{
+    display: inline-block;
+}
+
+.article-check{
+    margin-top:40px;
+}
+
+.button-article-check{
+    background-color: rgba(116, 50, 92, 1);
+    padding:10px 20px;
+    border-radius:30px;
+    margin-left:30px;
+}
+
+.article-check-text{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*event*/
+.event{
+    padding:50px 0;
+}
+
+.event-text{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 32px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #C4A366 0%, #E0C38C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.event-text-bottom{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom:50px;
+}
+
+/*event slidder*/
+.swiper {
+    width: 100%;
+    height: 400px;
+}
+
+.event-swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
 

@@ -13,8 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&family=Noto+Sans+JP&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -116,11 +117,16 @@
                         <div class="pick-up-text">
                             Relax at hot springs and shrines in winter!
                         </div>
-                        <div class="pick-ip-text-2 text-right">
-                            <div class="read-this">read this article</div>
-                            <div class="pick-up-button-class">
-                                <button class="pick-up-button"></button>
+                        <div class="pickup-check text-right">
+                            <div class="pickup-check-text">
+                                read this article
                             </div>
+                            <div class="button-pickup-check">
+                                <button>
+                                    <img src="images/common/right-awrrow.png" alt="矢印">
+                                </button>
+                            </div>
+
                         </div>
                         <hr>
                         <div class="emergency-alert">
@@ -256,6 +262,153 @@
 
                 </div>
             </div>
+            <!--article-->
+            <div class="article text-center">
+                <div class="article-text">
+                    Article
+                </div>
+                <div class="article-text-bottom">
+                    New feature article
+                </div>
+                <div class="article-detail">
+                    <div class="row">
+                        <div class="col text-left">
+                            <div class="detail-image">
+                                <img src="images/top/dammy.jpg" alt="ダミー">
+                            </div>
+                            <div class="detail-text text-left">
+                                Get out of the city and enjoy luxury during your trip.
+                            </div>
+                            <div class="detail-date text-left">
+                                2023.10.10 up
+                            </div>
+                            <span class="detail-tag">transport</span>
+                            <span class="detail-tag">＃Oita</span>
+                        </div>
+                        <div class="col text-left">
+                            <div class="detail-image">
+                                <img src="images/top/dammy.jpg" alt="ダミー">
+                            </div>
+                            <div class="detail-text text-left">
+                                Get out of the city and enjoy luxury during your trip.
+                            </div>
+                            <div class="detail-date text-left">
+                                2023.10.10 up
+                            </div>
+                            <span class="detail-tag">transport</span>
+                            <span class="detail-tag">＃Oita</span>
+                        </div>
+                        <div class="col text-left">
+                            <div class="detail-image">
+                                <img src="images/top/dammy.jpg" alt="ダミー">
+                            </div>
+                            <div class="detail-text text-left">
+                                Get out of the city and enjoy luxury during your trip.
+                            </div>
+                            <div class="detail-date text-left">
+                                2023.10.10 up
+                            </div>
+                            <span class="detail-tag">transport</span>
+                            <span class="detail-tag">＃Oita</span>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col text-left">
+                            <div class="detail-image">
+                                <img src="images/top/dammy.jpg" alt="ダミー">
+                            </div>
+                            <div class="detail-text text-left">
+                                Get out of the city and enjoy luxury during your trip.
+                            </div>
+                            <div class="detail-date text-left">
+                                2023.10.10 up
+                            </div>
+                            <span class="detail-tag">transport</span>
+                            <span class="detail-tag">＃Oita</span>
+                        </div>
+                        <div class="col text-left">
+                            <div class="detail-image">
+                                <img src="images/top/dammy.jpg" alt="ダミー">
+                            </div>
+                            <div class="detail-text text-left">
+                                Get out of the city and enjoy luxury during your trip.
+                            </div>
+                            <div class="detail-date text-left">
+                                2023.10.10 up
+                            </div>
+                            <span class="detail-tag">transport</span>
+                            <span class="detail-tag">＃Oita</span>
+                        </div>
+                        <div class="col text-left">
+                            <div class="detail-image">
+                                <img src="images/top/dammy.jpg" alt="ダミー">
+                            </div>
+                            <div class="detail-text text-left">
+                                Get out of the city and enjoy luxury during your trip.
+                            </div>
+                            <div class="detail-date text-left">
+                                2023.10.10 up
+                            </div>
+                            <span class="detail-tag">transport</span>
+                            <span class="detail-tag">＃Oita</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="article-check text-right">
+                <div class="article-check-text">
+                    View more articles
+                </div>
+                <div class="button-article-check">
+                    <button>
+                        <img src="images/common/right-awrrow.png" alt="矢印">
+                    </button>
+                </div>
+            </div>
+            <!--Event-->
+            <div class="event text-center">
+                <div class="event-text">
+                    Events
+                </div>
+                <div class="event-text-bottom">
+                    Introducing recommended events
+                </div>
+                <div class="swiper event-mySwiper">
+                    <div class="event-swiper-wrapper">
+                        <div class="event-swiper-slide">
+                            <img src="images/top/review-img.jpg" alt="リビュー">
+                        </div>
+                        <div class="event-swiper-slide">
+                            <img src="images/top/review-img.jpg" alt="リビュー">
+                        </div>
+                        <div class="event-swiper-slide">
+                            <img src="images/top/review-img.jpg" alt="リビュー">
+                        </div>
+                        <div class="event-swiper-slide">
+                            <img src="images/top/review-img.jpg" alt="リビュー">
+                        </div>
+                        <div class="event-swiper-slide">
+                            <img src="images/top/review-img.jpg" alt="リビュー">
+                        </div>
+                        <div class="event-swiper-slide">
+                            <img src="images/top/review-img.jpg" alt="リビュー">
+                        </div>
+                        <div class="event-swiper-slide">
+                            <img src="images/top/review-img.jpg" alt="リビュー">
+                        </div>
+                        <div class="event-swiper-slide">
+                            <img src="images/top/review-img.jpg" alt="リビュー">
+                        </div>
+                        <div class="event-swiper-slide">
+                            <img src="images/top/review-img.jpg" alt="リビュー">
+                        </div>
+                    </div>
+                    <div class="event-swiper-pagination"></div>
+                </div>
+            </div>
+
         </main>
         <footer></footer>
     </div>
@@ -269,6 +422,7 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

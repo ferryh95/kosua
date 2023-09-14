@@ -71,4 +71,14 @@ function updateUI(weatherData) {
         el: ".swiper-pagination",
         clickable: true,
       },
-    });
+ });
+  
+ /*event swipper*/
+ var eventswiper = new Swiper(".event-mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".event-swiper-pagination",
+        clickable: true,
+      },
+ });
