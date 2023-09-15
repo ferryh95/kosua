@@ -375,37 +375,37 @@
                 <div class="event-text-bottom">
                     Introducing recommended events
                 </div>
-                <div class="swiper event-mySwiper">
-                    <div class="event-swiper-wrapper">
-                        <div class="event-swiper-slide">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
                             <img src="images/top/review-img.jpg" alt="リビュー">
                         </div>
-                        <div class="event-swiper-slide">
+                        <div class="swiper-slide">
                             <img src="images/top/review-img.jpg" alt="リビュー">
                         </div>
-                        <div class="event-swiper-slide">
+                        <div class="swiper-slide">
                             <img src="images/top/review-img.jpg" alt="リビュー">
                         </div>
-                        <div class="event-swiper-slide">
+                        <div class="swiper-slide">
                             <img src="images/top/review-img.jpg" alt="リビュー">
                         </div>
-                        <div class="event-swiper-slide">
+                        <div class="swiper-slide">
                             <img src="images/top/review-img.jpg" alt="リビュー">
                         </div>
-                        <div class="event-swiper-slide">
+                        <div class="swiper-slide">
                             <img src="images/top/review-img.jpg" alt="リビュー">
                         </div>
-                        <div class="event-swiper-slide">
+                        <div class="swiper-slide">
                             <img src="images/top/review-img.jpg" alt="リビュー">
                         </div>
-                        <div class="event-swiper-slide">
+                        <div class="swiper-slide">
                             <img src="images/top/review-img.jpg" alt="リビュー">
                         </div>
-                        <div class="event-swiper-slide">
+                        <div class="swiper-slide">
                             <img src="images/top/review-img.jpg" alt="リビュー">
                         </div>
                     </div>
-                    <div class="event-swiper-pagination"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
 
