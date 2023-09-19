@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/924a4290f9.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -38,19 +39,44 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item nav-main-menu">
-                                <a class="nav-link" id="homelink" href="../user/companyinfo.php">Area</a>
+                                <a class="nav-link" id="homelink" href="../user/companyinfo.php">
+                                    <div class="area-menu-image">
+                                        <img src="images/top/mi-area.png" alt="area-icon">
+                                    </div>
+                                    Area
+                                </a>
                             </li>
                             <li class="nav-item nav-main-menu">
-                                <a class="nav-link" id="jigyoulink" href="#">Course</span></a>
+                                <a class="nav-link" id="jigyoulink" href="#">
+                                    <div class="area-menu-image">
+                                        <img src="images/top/mi-course.png" alt="area-icon">
+                                    </div>
+                                    Course</span>
+                                </a>
                             </li>
                             <li class="nav-item nav-main-menu">
-                                <a class="nav-link" id="worklink" href="#">Article</span></a>
+                                <a class="nav-link" id="worklink" href="#">
+                                    <div class="area-menu-image">
+                                        <img src="images/top/mi-article.png" alt="area-icon">
+                                    </div>
+                                    Article</span>
+                                </a>
                             </li>
                             <li class="nav-item nav-main-menu">
-                                <a class="nav-link" id="memberlink" href="#">Event</span></a>
+                                <a class="nav-link" id="memberlink" href="#">
+                                    <div class="area-menu-image">
+                                        <img src="images/top/mi-event.png" alt="area-icon">
+                                    </div>
+                                    Event</span>
+                                </a>
                             </li>
                             <li class="nav-item nav-main-menu">
-                                <a class="nav-link" id="qnalink" href="#">Review</span></a>
+                                <a class="nav-link" id="qnalink" href="#">
+                                    <div class="area-menu-image">
+                                        <img src="images/top/mi-review.png" alt="area-icon">
+                                    </div>
+                                    Review</span>
+                                </a>
                             </li>
 
                         </ul>
@@ -380,7 +406,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide text-left">
                             <div class="e-swipper-image">
-                                <img src="images/top/" alt="リビュー">
+                                <img src="images/top/event-placholder.png" alt="リビュー">
                             </div>
                             <div class="e-swipper-text">
                                 Grand Setsubun Festival
@@ -391,7 +417,7 @@
                         </div>
                         <div class="swiper-slide text-left">
                             <div class="e-swipper-image">
-                                <img src="images/top/review-img.jpg" alt="リビュー">
+                                <img src="images/top/event-placholder.png" alt="リビュー">
                             </div>
                             <div class="e-swipper-text">
                                 Grand Setsubun Festival
@@ -402,7 +428,7 @@
                         </div>
                         <div class="swiper-slide text-left">
                             <div class="e-swipper-image">
-                                <img src="images/top/review-img.jpg" alt="リビュー">
+                                <img src="images/top/event-placholder.png" alt="リビュー">
                             </div>
                             <div class="e-swipper-text">
                                 Grand Setsubun Festival
@@ -413,7 +439,7 @@
                         </div>
                         <div class="swiper-slide text-left">
                             <div class="e-swipper-image">
-                                <img src="images/top/review-img.jpg" alt="リビュー">
+                                <img src="images/top/event-placholder.png" alt="リビュー">
                             </div>
                             <div class="e-swipper-text">
                                 Grand Setsubun Festival
@@ -424,7 +450,7 @@
                         </div>
                         <div class="swiper-slide text-left">
                             <div class="e-swipper-image">
-                                <img src="images/top/review-img.jpg" alt="リビュー">
+                                <img src="images/top/event-placholder.png" alt="リビュー">
                             </div>
                             <div class="e-swipper-text">
                                 Grand Setsubun Festival
@@ -435,7 +461,7 @@
                         </div>
                         <div class="swiper-slide text-left">
                             <div class="e-swipper-image">
-                                <img src="images/top/review-img.jpg" alt="リビュー">
+                                <img src="images/top/event-placholder.png" alt="リビュー">
                             </div>
                             <div class="e-swipper-text">
                                 Grand Setsubun Festival
@@ -446,7 +472,7 @@
                         </div>
                         <div class="swiper-slide text-left">
                             <div class="e-swipper-image">
-                                <img src="images/top/review-img.jpg" alt="リビュー">
+                                <img src="images/top/event-placholder.png" alt="リビュー">
                             </div>
                             <div class="e-swipper-text">
                                 Grand Setsubun Festival
@@ -457,7 +483,7 @@
                         </div>
                         <div class="swiper-slide text-left">
                             <div class="e-swipper-image">
-                                <img src="images/top/review-img.jpg" alt="リビュー">
+                                <img src="images/top/event-placholder.png" alt="リビュー">
                             </div>
                             <div class="e-swipper-text">
                                 Grand Setsubun Festival
@@ -468,7 +494,7 @@
                         </div>
                         <div class="swiper-slide text-left">
                             <div class="e-swipper-image">
-                                <img src="images/top/review-img.jpg" alt="リビュー">
+                                <img src="images/top/event-placholder.png" alt="リビュー">
                             </div>
                             <div class="e-swipper-text">
                                 Grand Setsubun Festival
@@ -481,9 +507,152 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-
+            <div class="review-check-2 text-right">
+                <div class="review-check-2-text">
+                    check the review
+                </div>
+                <div class="button-review-check-2">
+                    <button>
+                        <img src="images/common/right-awrrow.png" alt="矢印">
+                    </button>
+                </div>
+            </div>
+            <!--map-->
+            <div class="map text-center">
+                <div class="map-text-top">
+                    Get to know the region of Kyushu
+                </div>
+                <div class="map-title">
+                    Area
+                </div>
+                <div class="map-text-bottom">
+                    Click the map to see details.
+                </div>
+                <div class="row">
+                    <div class="col map-left-col">
+                        <div class="castle-image">
+                            <img src="images/top/map-castle.jpg" alt="熊本城" width="300" height="150">
+                        </div>
+                        <div class="map-image-text-header">
+                            Kumamoto
+                        </div>
+                        <div class="map-image-text">
+                            "Nature of fire", "land of water", "nature" and "water"
+                            blessed with magnificent nature and clear streams.
+                            "Local Cuisine" full of flavors unique to Kumamoto.
+                            Straight-forward and stubborn people "Mokkosuna people"
+                        </div>
+                        <div class="map-image-button text-center">
+                            <button>
+                                Read More&nbsp;&nbsp;&nbsp;<img src="images/common/right-awrrow.png">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col map-right-col">
+                        <img src="images/top/kyuu-map.png" alt="九州マップ">
+                    </div>
+                </div>
+            </div>
+            <!--rental car-->
+            <div class="rental text-center">
+                <div class="rental-text-head">
+                    Travel comfortably with a rental car
+                </div>
+                <div class="row">
+                    <div class="col rental-col-left">
+                        <div class="rental-image">
+                            <img src="images/top/ill-rental.png" alt="レンタルダミー">
+                        </div>
+                        <div class="rental-text">
+                            The driving manual for foreign visitors to Japan provides tourist
+                            information, how to use expressways, how to refuel at a self-service gas
+                            station, as well as different traffic rules for each country and easy-to-understand diagrams
+                            that explain situations that can lead to accidents. . Please take a look.
+                        </div>
+                        <div class="rental-button">
+                            <button>
+                                Check the manual&nbsp;&nbsp;&nbsp;<img src="images/common/right-awrrow.png">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col rental-col-right">
+                        <div class="col-right-text">
+                            The driving manual for foreign visitors to Japan provides tourist information, how to use
+                            expressways, how to refuel at a self-service gas station, as well as different traffic rules
+                            for each country and easy-to-understand diagrams that explain situations that can lead to
+                            accidents. . Please take a look.
+                        </div>
+                        <div class="sponsor-logo row">
+                            <div class="col">
+                                <img src="images/top/re-ori.jpg" alt="orix" width="100" height="50">
+                            </div>
+                            <div class="col">
+                                <img src="images/top/re-times.jpg" alt="times" width="100" height="50">
+                            </div>
+                            <div class="col">
+                                <img src="images/top/re-bagdet.jpg" alt="budget" width="100" height="50">
+                            </div>
+                            <div class="col">
+                                <img src="images/top/re-nippon.jpg" alt="nippon" width="100" height="50">
+                            </div>
+                            <div class="col">
+                                <img src="images/top/re-toyota.jpg" alt="toyota" width="100" height="50">
+                            </div>
+                            <div class="col">
+                                <img src="images/top/re-avis.jpg" alt="avis" width="100" height="50">
+                            </div>
+                        </div>
+                        <div id="googleMap" style="width:100%;height:400px;">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6647.19831934533!2d130.39217144163212!3d33.58975528070461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35419191c6bf9d81%3A0x5999335c14be57dc!2sFukuoka%20City%20Hall!5e0!3m2!1sen!2sjp!4v1695100916351!5m2!1sen!2sjp"
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="row footer-1">
+                <div class="col col-left-footer-1">
+                    <img src="images/top/lg-foot.png" alt="footer-logo" width="300" height="80">
+                </div>
+                <div class="col col-right-footer-1">
+                    Introducing Kyushu's high-quality and unknown trips.
+                </div>
+            </div>
+            <div class="footer-2">
+                <nav class="footer-menu">
+                    <ul>
+                        <li>Area</li>
+                        <li>Course</li>
+                        <li>Article</li>
+                        <li>Event</li>
+                        <li>Review</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-3">
+                <nav class="footer-side-menu">
+                    <ul>
+                        <li>About this site</li>
+                        <li>Privacy policy</li>
+                        <li>Site map</li>
+                        <li class="footer-contact">
+                            <button>Contact</button>
+                        </li>
+                        <li class="back-to-top">
+                            <button onclick="topFunction()" id="myBtn">
+                                <img src="images/top/pagetop.png" alt="backtotops">
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-4 text-center">
+                Copyright © All Rights Reserved.
+            </div>
+        </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">

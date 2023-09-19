@@ -6,7 +6,7 @@ body{
 }
 
 button{
-    cursor: none;
+    cursor: pointer;
 }
 
 header {
@@ -355,6 +355,10 @@ nav li a {
     display: inline-block;
 }
 
+.review-check{
+    padding: 20px 50px; 
+}
+
 .button-review-check{
     background-color: rgba(224, 195, 140, 1);
     padding:10px 20px;
@@ -426,6 +430,7 @@ nav li a {
 
 .course-check{
     margin-top:40px;
+    padding:20px 50px;
 }
 
 .button-course-check{
@@ -496,6 +501,8 @@ nav li a {
 
 .article-check{
     margin-top:40px;
+    padding: 20px 50px;
+    background-color: rgba(237, 241, 249, 1);
 }
 
 .button-article-check{
@@ -533,56 +540,6 @@ nav li a {
 }
 
 /*event slidder*/
-.event-swiper-slide {
-    flex-shrink: 0;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transition-property: transform;
-    display: block
-}
-
-.event-swiper-pagination {
-    position: absolute;
-    text-align: center;
-    transition: .3s opacity;
-    transform: translate3d(0,0,0);
-    z-index: 10
-}
-
-
-.event-swiper {
-    width: 100%;
-    height: 400px;
- 
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    overflow: hidden;
-    overflow: clip;
-    list-style: none;
-    padding: 0;
-    z-index: 1;
-    display: block
-
-}
-
-.event-swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.event-swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .e-swipper-text{
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
@@ -595,5 +552,201 @@ nav li a {
     font-weight: 400;
 }
 
+.review-check-2-text,
+.button-review-check-2{
+    display: inline-block;
+}
+
+.review-check-2{
+    margin-top:40px;
+    background-color: rgba(230, 207, 163, 1);
+    padding: 20px 50px; 
+}
+
+.button-review-check-2{
+    background-color: rgba(224, 195, 140, 1);
+    padding:10px 20px;
+    border-radius:30px;
+    margin-left:30px;
+}
+
+.article-check-2-text{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*Map*/
+.map{
+    margin-top:50px;
+    padding: 0 250px;
+}
+.map-text-top{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.map-title{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 32px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #7B2460 0%, rgba(123, 36, 96, 0.854167) 25%, #AA4C8F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    margin-top: 20px;
+}
+
+.map-text-bottom{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.map-image-text-header{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: left;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.map-image-text{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.map-image-button{
+    font-family: Ibarra Real Nova;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(123, 36, 96, 1);
+    border: 1px solid rgba(123, 36, 96, 1);
+    border-radius: 20px;
+    width:80%;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px 0;
+}
+.map-left-col{
+    padding:20px;
+    border:0px solid black;
+    box-shadow: 0 0 0.75rem grey;
+    margin-left:100px;
+    margin-right:20px;
+}
+
+.map-right-col{
+    margin-left:20px;
+}
+
+.map-text-bottom{
+    margin-bottom: 50px;
+}
+
+/*rental*/
+.rental{
+    margin-top:50px;
+    background: url("../images/top/bg-rental.jpg");
+    padding-left:250px;
+    padding-right:250px;
+}
+
+.rental-text-head{
+    font-family: Ibarra Real Nova;
+    font-size: 48px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #7B2460 0%, rgba(123, 36, 96, 0.854167) 25%, #AA4C8F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:70px 0;
+}
+
+.rental-text{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify !important;
+    margin-top:40px;
+}
+
+.rental-button{
+    margin-top:20px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgba(123, 36, 96, 1);
+    border:1px solid rgba(123, 36, 96, 1);
+    border-radius:20px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px 0;
+}
+
+.col-right-text{
+    text-align: justify !important;
+}
+
+.sponsor-logo{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+/*footer*/
+footer{
+    background: url("../images/top/bg-foot.jpg");
+    padding-bottom: 30px;
+}
+
+.footer-1{
+    padding:60px;
+}
+.col-right-footer-1{
+    margin-top:auto;
+    margin-bottom:auto;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align:right;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-menu{
+    background-color: rgba(255, 255, 255, 0.75);
+    width:100%;
+    padding-left:50px;
+    padding-right:700px; 
+    margin-bottom:70px;
+}
+
+.footer-side-menu{
+    padding-left:600px;
+}
 
 
+.footer-contact > button{
+    border:1px solid black;
+    padding:5px 20px;
+}
+
+.back-to-top{
+    margin-top: -50px;
+}
+
+.footer-3{
+    margin-top:10
+    0px;
+}
+
+.footer-4{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 10px;
+    font-weight: 400;
+    color:rgba(132, 132, 132, 1);
+
+}
