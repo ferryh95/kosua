@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-body{
+body,html{
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -182,13 +182,18 @@ nav li a {
     font-weight: 600;
 }
 
+
 /*pickup*/
 .col-2{
     flex:unset !important;
     max-width: unset !important;
     width:69% !important;
     margin-left: -100px;
-    z-index: -1;
+    z-index: 1;
+}
+
+.col-1{
+    z-index: 2;
 }
 
 .pick-up>img{
@@ -233,9 +238,14 @@ nav li a {
 
 .button-pickup-check{
     background-color: rgba(116, 50, 92, 1);
-    padding:10px 20px;
     border-radius:30px;
     margin-left:30px;
+}
+
+.button-pickup-check > button{
+    width: 100px;
+    height:50px;
+    text-align: center;
 }
 
 .pickup-check-text{
@@ -361,9 +371,15 @@ nav li a {
 
 .button-review-check{
     background-color: rgba(224, 195, 140, 1);
-    padding:10px 20px;
+    
     border-radius:30px;
     margin-left:30px;
+}
+
+.button-review-check > button{
+    width: 100px;
+    height:50px;
+    text-align: center;
 }
 
 .review-check-text{
@@ -435,9 +451,14 @@ nav li a {
 
 .button-course-check{
     background-color: rgba(116, 50, 92, 1);
-    padding:10px 20px;
     border-radius:30px;
     margin-left:30px;
+}
+
+.button-course-check > button{
+    width: 100px;
+    height:50px;
+    text-align: center;
 }
 
 .course-check-text{
@@ -507,9 +528,14 @@ nav li a {
 
 .button-article-check{
     background-color: rgba(116, 50, 92, 1);
-    padding:10px 20px;
     border-radius:30px;
     margin-left:30px;
+}
+
+.button-article-check > button{
+    width: 100px;
+    height:50px;
+    text-align: center;
 }
 
 .article-check-text{
@@ -565,9 +591,14 @@ nav li a {
 
 .button-review-check-2{
     background-color: rgba(224, 195, 140, 1);
-    padding:10px 20px;
     border-radius:30px;
     margin-left:30px;
+}
+
+.button-review-check-2 > button{
+    width: 100px;
+    height:50px;
+    text-align: center;
 }
 
 .article-check-2-text{
@@ -739,8 +770,7 @@ footer{
 }
 
 .footer-3{
-    margin-top:10
-    0px;
+    margin-top:10px 0px;
 }
 
 .footer-4{
@@ -749,4 +779,382 @@ footer{
     font-weight: 400;
     color:rgba(132, 132, 132, 1);
 
+}
+
+/*Kumamoto page*/
+
+/*top banner*/
+.top-banner-kuma{
+    background: url("../images/kumamoto/kuma-top.png") no-repeat;
+    padding:50px 0;
+    background-size: 100%;
+}
+
+.kuma-banner-top{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    filter: drop-shadow( 4px 4px 20px rgba(0, 0, 0, 0.5));
+}
+
+.kuma-banner-bottom{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.5em;
+    color: white;
+    filter: drop-shadow( 4px 4px 20px rgba(0, 0, 0, 0.5));
+}
+
+.navbar-toggler-icon-2 {
+    background: url("../images/common/hamburger-menu.png") no-repeat center center;
+        display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background-size: 100% 100%;
+
+}
+
+@media (min-width:768px){
+    .col-3,
+    .m-article-detail,
+    .m-event,
+    .m-rental{
+        display: none !important;
+    }
+}
+
+/*for smartphone*/
+@media (max-width :768px) and (orientation: portrait ){
+    /*navbar*/
+    .navbar-brand>img{
+        width:200px;
+    }
+    .navbar{
+        margin-right:0;
+    }
+
+    /*top header*/
+    .col-1{
+        display: none;
+    }
+
+    .col-2,
+    .col-1{
+       width:130% !important;
+    }
+
+    .col-2 >hr,
+    .col-2 >.emergency-alert{
+        display: none;
+    }
+    .col-2>.pick-up>img{
+        height:40vh;
+        z-index: 0;
+        position: relative;
+    }
+    .pick-up-text{
+        font-size:16px;
+    }
+
+    .pickup-check{
+        margin-top:10px;
+    }
+
+    .pickup-group{
+        background-color: white;
+        border:1px solid gray;
+        margin-right:70px;
+        margin-top:-40px;
+        z-index:3;
+        position: relative;
+    }
+
+    .button-pickup-check > button,
+    .button-course-check > button,
+    .button-article-check > button{
+        width:70px;
+        height:30px;
+    }
+
+    /*col3*/
+    .col-3{
+        background: url("../images/top/bg-topcontents.jpg");
+        max-width: unset !important;
+        width:100% !important;
+        flex: unset !important;
+        margin-top: 10px;
+    }
+
+    .col-3-top{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        background-color: white;
+        margin: 20px 50px;
+    }
+
+    .row-1{
+        padding: 0 50px;
+    }
+
+    .row-1 > .col{
+        border:1px dotted white;
+    }
+
+    .row-2{
+        margin: 20px 100px;
+        padding:0 50px;
+    }
+
+    .row-2>.col{
+                border:1px dotted white;
+    }
+
+    .intro-top{
+        font-size:16px;
+    }
+
+    .intro-bottom{
+        font-size: 13px;
+    }
+
+    .swiper {
+        height: 160px;
+    }
+
+    .swiper-slide{
+        width:160px !important;
+    }
+
+    .post-submit{
+        margin: 20px 0;
+        margin-top: 80px;
+    }
+
+    .trip-around-kyuushuu-text{
+        font-size:23px;
+    }
+
+    .trip-around-kyuushuu{
+        padding:20px;
+    }
+
+    .course-text,
+    .article-text,
+    .article-detail
+    {
+        display:none;
+    }
+
+    .course-image{
+        background: none;
+        padding: 0;
+        margin-left:10%;
+
+    }
+
+    .col-course{
+        width:40% !important;
+        height:160px !important;
+        margin-bottom:10px !important;
+    }
+
+    .course-image-inner > .row > .col-sm >img {
+        width: 160px;
+    }
+
+    .article{
+        padding:20px;
+    }
+    .article-text-bottom{
+        font-size:30px;
+    }
+
+    .m-art-row-1-col-2{
+        margin-left:-50px;
+    }
+
+    .m-art-row-1-col-2-text-1{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .m-art-row-1-col-2-text-2{
+        margin-top:10px;
+        font-size: 8px;
+    }
+
+    .m-art-row-2{
+        margin-top:30px;
+    }
+
+    .swiper{
+        display:none !important;
+    }
+
+    .m-event-row-1-col-2{
+        margin-left:-50px;
+    }
+
+    .m-event-row-1-col-2-text-1{
+        font-family: 'Roboto', sans-serif;
+    }
+    .m-event-row-1-col-2-text-2
+    {
+        font-size:10px;
+    }
+
+    .m-event-cat{
+        margin-top:10px;
+        font-size: 8px;
+    }
+
+    .m-event-cat-1{
+        color:rgba(167, 44, 114, 1);
+        margin-right:10px;
+    }
+    .m-event-cat-2{
+        color:rgba(66, 66, 66, 1);
+        margin-right:10px;
+    }
+    .m-event-cat-3{
+        color:rgba(195, 163, 102, 1);
+    }
+
+    .m-event > hr{
+        margin: 20px 50px;
+    }
+    .m-event-row-2{
+        margin-top: 30px;
+    }
+    .review-check-2{
+        display: none;
+    }
+    .m-event-button-check-text{
+        font-size: 13px;
+    }
+    .m-event-button-check-text,
+    .button-m-event-button-check{
+        display: inline-block;
+    }
+
+    .m-event-button{
+        margin-top:10px;
+        padding: 20px 50px; 
+    }
+
+    .button-m-event-button-check{
+        background-color: rgba(123, 36, 96, 1);
+        border-radius:30px;
+        margin-left:30px;
+    }
+
+    .button-m-event-button-check > button{
+        width: 70px;
+        height:30px;
+        text-align: center;
+    }
+
+    .article-check{
+        display: none;
+    }
+
+    .m-article-detail > hr{
+        margin: 20px 50px;
+    }
+
+    .m-event-button-check-text,
+    .button-m-event-button-check{
+        display: inline-block;
+    }
+
+    .m-event-button{
+        margin-top:10px;
+        padding: 20px 50px; 
+    }
+
+    .button-m-event-button-check{
+        background-color: rgba(123, 36, 96, 1);
+        border-radius:30px;
+        margin-left:30px;
+    }
+
+    .button-m-event-button-check > button{
+        width: 70px;
+        height:30px;
+        text-align: center;
+    }   
+
+    .map{
+        padding: 50px;
+    }
+    .map-text-top{
+        color: rgba(123, 36, 96, 1);
+        font-size: 23px;
+    }
+
+    .map-title,
+    .map-left-col,
+    .rental{
+        display: none;
+    }
+    
+    .m-rental{
+        background: url("../images/top/bg-rental.jpg");
+        padding: 30px;
+    }
+
+    .m-rental-header{
+        color:rgba(116, 50, 92, 1);
+        font-family: 'Ibarra Real Nova', serif;
+        font-size:30px;
+    }
+
+    .m-sponsor{
+        margin-top: 30px;
+        margin-bottom:30px;
+    }
+
+    .m-sponsor-text{
+        text-align: justify;
+    }
+    .m-sponsor-button{
+        color: rgba(123, 36, 96, 1);
+        border: 1px solid rgba(123, 36, 96, 1);
+        border-radius:40px;
+        padding:10px 50px;
+        margin-top:30px;
+    }
+    .footer-desktop{
+        display: none;
+    }
+
+    .m-footer-logo{
+        padding-top:100px;
+    }
+    .m-copy{
+        font-size:8px;
+        color: grey;
+    }
+    .post-submit-text,
+    .post-submit-button{
+        display: inline-block;
+    }
+
+     .post-submit-button{
+        margin:0;
+     }
+
+     .button-review-check > button{
+        width: 70px;
+        height: 30px;
+     }
+
+     .reiviews,
+     .course,
+     .article{
+        background-color: #FBFCFD;
+     }
 }
