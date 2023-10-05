@@ -1,0 +1,44 @@
+.faq-top-text-1{
+    font-family: var(--ibbara);
+    font-size: 48px;
+    font-weight: 400;
+    margin-top:50px;
+
+}
+
+.faw-text-2{
+    font-family: var(--ibbara);
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+    padding:0 200px;
+}
+
+.faq-text-3{
+    font-family: var(--noto);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.button-group-faq{
+    margin-left:200px;
+    margin-right:200px;
+    font-family: var(--noto);
+    font-size: 24px;
+    font-weight: 400;
+    color:white;
+}
+
+.faq-indiv-button>button{
+    background-color: var(--c--purple);
+    padding-left:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    width:100%;
+}
+.faq-indiv-button:not(:last-child){
+    margin-bottom:20px;
+}

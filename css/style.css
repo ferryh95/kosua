@@ -334,6 +334,7 @@ nav li a {
     padding: 10px;
     margin-top:200px;
     margin-bottom:50px;
+    border-radius: 20px;
 }
 
 .post-submit-text{
@@ -822,7 +823,8 @@ footer{
     .col-3,
     .m-article-detail,
     .m-event,
-    .m-rental{
+    .m-rental,
+    .m-copy{
         display: none !important;
     }
 }
@@ -1156,5 +1158,13 @@ footer{
      .course,
      .article{
         background-color: #FBFCFD;
+     }
+
+     .m-footer-logo{
+        margin-right:30px;
+     }
+     
+     .m-copy{
+        margin-top:20px;
      }
 }

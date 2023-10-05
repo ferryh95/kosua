@@ -1,0 +1,213 @@
+.top-banner-about{
+    background: url("../images/about/about-top-bg.png");
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.7);
+    font-family: var(--noto);
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.5em;
+    color:var(--c--purple);
+    padding:50px 0;
+}
+
+.top-banner-2{
+    font-family: var(--ibbara);
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.top-banner-3{
+    font-family: var(--ibbara);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.top-top-1{
+    padding:50px 0;
+}
+.about-detail-1{
+    font-family: var(--noto);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 0 300px 100px 300px;
+}
+.top-banner-4{
+    font-family: var(--ibbara);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom:50px;
+}
+.about-detail-2{
+    font-family: var(--noto);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 0 300px 100px 300px;
+}
+
+.post-submit-2{
+    background-color: rgba(224, 195, 140, 1);
+    margin: 30px 200px;
+    padding: 10px;
+    margin-top:100px;
+    margin-bottom:100px;
+    border-radius: 20px;
+}
+
+.top-banner-5{
+    font-family: var(--ibbara);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom:50px;
+}
+
+.faq-row{
+    background-color: var(--c--purple);
+    margin: 30px 200px !important;
+    color: white;
+    border-radius:20px;
+    padding:50px;
+}
+
+.faq-col-1{
+    font-family: var(--ibbara);
+    font-size: 84px;    
+    font-weight: 700;
+}
+
+.faq-col-2-text-1{
+    font-family: var(--ibbara);
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom:30px;
+}
+
+.faq-col-2-text-2 > a > button{
+    background: var(--c--pink);
+    color:white;
+    width:90px;
+    height:40px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.com-contact{
+    margin-top:70px;
+    padding: 50px;
+    background: var(--c--cyan);
+    margin-bottom:70px;
+}
+
+.com-text-1{
+    font-family: var(--ibbara);
+    font-size: 32px;
+    font-weight: 700;
+}
+.com-text-2{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.com-text-2-1{
+    font-family: var(--ibbara);
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.com-text-2-2{
+    font-family: var(--noto);
+    font-size: 23px;
+    font-weight: 700;
+    margin-left:30px;
+}
+
+.com-button{
+    background: var(--c--pink); 
+    margin:0 450px;
+    padding: 20px 60px;
+    border-radius:40px;
+    font-family: var(--ibbara);
+    font-size: 23px;
+    font-weight: 400;
+    color:white;
+}
+
+@media(min-width:769px){
+    .m-faq,
+    .m-com-contact{
+        display: none !important;
+    }
+}
+
+@media(max-width:768px){
+    .top-top-1,
+    .top-banner-4{
+        background-color: var(--c--cyan);
+    }
+
+    .top-banner-4{
+        padding:50px 20px; 
+    }
+
+    .about-detail-1,
+    .about-detail-2{
+        margin:30px 20px;
+    }
+
+    .post-submit-2{
+        margin-left:0;
+        margin-right:0;
+        border-radius: 0;
+    }
+    .faq-row{
+        display: none !important;
+    }
+    .m-faq{
+        background: url("../images/about/mobile-faq.png") no-repeat;
+        background-size: 100%;;
+    }
+
+    .m-faq> a > button{
+        background-color: white;
+        border-radius: 40px;
+        width:80px;
+        height:40px;
+        margin-right: 40px;
+        margin-top:170px;
+        margin-bottom:40px;
+        text-align: center;
+    }
+
+    .com-contact{
+        display: none !important;
+    }
+
+    .m-com-contact{
+        background: var(--c--cyan);
+        padding:50px 0;
+
+        margin-bottom:70px;
+    }
+    .m-com-text-1{
+        font-family: Noto Sans JP;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom:30px;
+    }
+
+    .m-com-button{
+        font-family: var(--ibbara);
+        font-size: 32px;
+        font-weight: 400;
+        color:white;
+    }
+
+    .m-com-button > button{
+        background-color: var(--pink);
+        width:fit-content;
+        padding: 10px 60px;
+        border-radius: 40px;
+    }
+}

@@ -22,7 +22,7 @@
         <div class="footer-3">
             <nav class="footer-side-menu">
                 <ul>
-                    <li>About this site</li>
+                    <li><a href="about.php">About this site</a></li>
                     <li>Privacy policy</li>
                     <li>Site map</li>
                     <li class="footer-contact">
