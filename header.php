@@ -36,6 +36,34 @@
 </head>
 
 <body>
+    <script type="module">
+    // Import the functions you need from the SDKs you need
+    import {
+        initializeApp
+    } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+    import {
+        getAnalytics
+    } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyCMHa7VG4Vtz2B5cYy51FsF7tfhd0WkKQQ",
+        authDomain: "kyushutabitabi.firebaseapp.com",
+        databaseURL: "https://kyushutabitabi-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "kyushutabitabi",
+        storageBucket: "kyushutabitabi.appspot.com",
+        messagingSenderId: "582180382688",
+        appId: "1:582180382688:web:12638779089859e4d52d85",
+        measurementId: "G-QKZK0SPF9X"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    </script>
     <div id="ページ名" class="wrapper">
         <header>
             <nav class="navbar navbar-expand-lg navbar-light nav-head">
