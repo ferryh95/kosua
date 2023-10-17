@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style-contact.css">
     <link rel="stylesheet" href="css/style-privacy.css">
     <link rel="stylesheet" href="css/style-event.css">
+    <link rel="stylesheet" href="css/style-event-detail.css">
     <!--googlefont pool-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

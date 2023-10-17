@@ -23,7 +23,7 @@
     padding:0px 350px;
 }
 
-.col-key >button{
+.col-key>a >button{
     border: 1px solid var(--c--key-purple);
     border-radius:40px;
     color: var(--c--key-purple);
@@ -39,7 +39,7 @@
     padding: 0px 100px;
 }
 
-.col-key-2 > button{
+.col-key-2 >a> button{
     color: var(--c--key-grey);
     border: 1px solid var(--c--key-grey);
     border-radius: 40px;
@@ -63,7 +63,7 @@
     margin-bottom:50px;
 }
 
-.col-key-3 > button{
+.col-key-3 >a> button{
     color: var(--c--key-gold);
     border: 1px solid var(--c--key-gold);
     font-family: var(--roboto);

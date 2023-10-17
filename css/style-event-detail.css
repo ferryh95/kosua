@@ -1,0 +1,122 @@
+.event-detail-top{
+    background: url("../images/events/event-top.png")no-repeat;
+    background-size: 100%;
+    font-family: var(--noto);
+    font-size: 40px;
+    color: var(--c--white);
+    letter-spacing: 0.5em;
+    padding:50px 0;
+}
+.event-detail-main{
+    background-color: #E0C38C;
+    padding: 50px 200px;
+}
+
+.event-detail-top-1{
+    font-family: var(--ibbara);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom:50px;
+}
+
+.event-white{
+    background-color: white;
+    padding: 50px;
+}
+
+.d-tag-1{
+    font-family: var(--roboto);
+    color:var(--c--key-purple);
+    border:1px solid var(--c--key-purple);
+    border-radius:40px;
+    padding:5px 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.d-tag-2{
+    font-family: var(--roboto);
+    color:var(--c--key-grey);
+    border:1px solid var(--c--key-grey);
+    border-radius:40px;
+    padding:5px 10px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left:10px;
+}
+
+.d-tag-3{
+    font-family: var(--roboto);
+    color:var(--c--key-gold);
+    border:1px solid var(--c--key-gold);
+    padding:5px 10px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left:10px;
+}
+
+.d-tag{
+    margin-bottom:50px;
+}
+
+.d-title{
+    font-family: var(--roboto);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.d-address{
+    font-family: var(--roboto);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top:10px;
+}
+
+.d-img{
+    margin-top:50px;
+    width:100%;
+    margin-bottom:50px;
+}
+
+.d-img >img{
+    width:100%;
+}
+
+.d-detail{
+    margin-bottom:100px;
+}
+
+.d-info-tab{
+    background-color: rgba(237, 221, 191, 1);
+    padding:30px 50px;
+    border-radius:10px;
+}
+
+.d-col-2{
+    font-family: var(--ibbara);
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.d-info-table{
+    font-family: var(--ibbara);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top:40px;
+}
+
+.d-table-left{
+    width:150px;
+    height: 50px;
+}
+
+.d-ret-button > a> button{
+    font-family: var(--ibbara);
+    font-size: 23px;
+    margin-top:50px;
+    width:300px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius:40px;
+}
+
