@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/style-about.css">
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/style-faq.css">
+    <link rel="stylesheet" href="css/style-contact.css">
+    <link rel="stylesheet" href="css/style-privacy.css">
+    <link rel="stylesheet" href="css/style-event.css">
     <!--googlefont pool-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +30,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--font-awesome-icon-->
     <script src="https://kit.fontawesome.com/924a4290f9.js" crossorigin="anonymous"></script>
 </head>
 
@@ -69,7 +73,7 @@
                                 </a>
                             </li>
                             <li class="nav-item nav-main-menu">
-                                <a class="nav-link" id="memberlink" href="#">
+                                <a class="nav-link" id="memberlink" href="event.php">
                                     <div class="area-menu-image">
                                         <img src="images/top/event.png" alt="area-icon" width="40" height="40">
                                     </div>

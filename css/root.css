@@ -2,10 +2,15 @@
 :root{
     --ibbara: 'Ibarra Real Nova', serif;
     --noto: 'Noto Sans JP', sans-serif;
+    --roboto: 'Roboto', sans-serif;
 
     /*color*/
     --c--purple: rgba(123, 36, 96, 1);
     --c--cyan:  rgba(237, 241, 249, 1);
     --c--pink:  rgba(218, 52, 134, 1);
+    --c--white: rgba(255, 255, 255, 1);
+    --c--key-purple: rgba(167, 44, 114, 1);
+    --c--key-grey: rgba(150, 150, 150, 1);
+    --c--key-gold: rgba(195, 163, 102, 1);
 
 }

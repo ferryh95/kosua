@@ -1,0 +1,135 @@
+.event-top{
+    background: url("../images/events/event-top.png")no-repeat;
+    background-size: 100%;
+    font-family: var(--noto);
+    font-size: 40px;
+    color: var(--c--white);
+    letter-spacing: 0.5em;
+    padding:50px 0;
+}
+
+.event-key-text{
+    margin-top:100px;
+    margin-bottom:50px;
+    font-family: var(--ibbara);
+    font-size: 32px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #C4A366 0%, #E0C38C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.event-key-1{
+    padding:0px 350px;
+}
+
+.col-key >button{
+    border: 1px solid var(--c--key-purple);
+    border-radius:40px;
+    color: var(--c--key-purple);
+    font-family: var(--roboto);
+    font-size: 16px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+}
+
+.event-key-2{
+    margin-top:50px;
+    padding: 0px 100px;
+}
+
+.col-key-2 > button{
+    color: var(--c--key-grey);
+    border: 1px solid var(--c--key-grey);
+    border-radius: 40px;
+    font-family: var(--roboto);
+    font-size: 16px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+}
+
+.event-key-3{
+    margin-top:50px;
+    padding:0 10px;
+}
+
+.event-text-event{
+    font-family: var(--ibbara);
+    font-size: 48px;
+    font-weight: 600;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.col-key-3 > button{
+    color: var(--c--key-gold);
+    border: 1px solid var(--c--key-gold);
+    font-family: var(--roboto);
+    font-size: 13px;
+    text-align: center;
+    width: 75px;
+    height: 40px;
+}
+
+.col-event{
+    width:30%;
+    margin-bottom:50px;
+}
+
+.row-event{
+    padding-left:150px;
+    padding-right:150px;
+    margin-top:50px;
+}
+
+.row-event>a{
+    width:33%;
+}
+
+.row-event>a>.col-4{
+    width:100% !important;
+    max-width: 100% !important;
+}
+
+.event-title{
+    font-family: var(--roboto);
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.event-address{
+    font-family: var(--roboto);
+    font-size: 16px;
+    margin-top:10px;
+}
+.event-tag{
+    margin-top:10px;
+}
+.tag-1{
+    font-family: var(--roboto);
+    font-size: 13px;
+    color:var(--c--key-purple);
+    border:1px solid var(--c--key-purple);
+    border-radius: 40px;
+    padding:5px 10px; 
+}
+.tag-2{
+    font-family: var(--roboto);
+    font-size: 13px;
+    color:var(--c--key-grey);
+    border:1px solid var(--c--key-grey);
+    border-radius: 40px;
+    padding:5px 10px; 
+    margin-left:10px;
+}
+.tag-3{
+    font-family: var(--roboto);
+    font-size: 13px;
+    color:var(--c--key-gold);
+    border:1px solid var(--c--key-gold);
+    padding:5px 10px;
+    margin-left:10px; 
+}
+

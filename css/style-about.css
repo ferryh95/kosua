@@ -1,5 +1,5 @@
 .top-banner-about{
-    background: url("../images/about/about-top-bg.png");
+    background: url("../images/about/about-top-bg.png") no-repeat;
     box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.7);
     font-family: var(--noto);
     font-size: 40px;
@@ -11,13 +11,13 @@
 
 .top-banner-2{
     font-family: var(--ibbara);
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 400;
     margin-bottom: 50px;
 }
 .top-banner-3{
     font-family: var(--ibbara);
-    font-size: 32px;
+    font-size: 23px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -26,21 +26,21 @@
 }
 .about-detail-1{
     font-family: var(--noto);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     text-align: justify;
     margin: 0 300px 100px 300px;
 }
 .top-banner-4{
     font-family: var(--ibbara);
-    font-size: 32px;
+    font-size: 23px;
     font-weight: 700;
     line-height: 50px;
     margin-bottom:50px;
 }
 .about-detail-2{
     font-family: var(--noto);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     text-align: justify;
     margin: 0 300px 100px 300px;
@@ -124,16 +124,22 @@
 }
 
 .com-button{
-    background: var(--c--pink); 
-    margin:0 450px;
-    padding: 20px 60px;
+    
+    
+}
+
+.com-button > a > button{
+    background: var(--c--pink);
+    width: 200px;
+    height: 60px;
     border-radius:40px;
+    margin:0 450px;
+    
     font-family: var(--ibbara);
     font-size: 23px;
     font-weight: 400;
     color:white;
 }
-
 @media(min-width:769px){
     .m-faq,
     .m-com-contact{
@@ -198,16 +204,18 @@
     }
 
     .m-com-button{
-        font-family: var(--ibbara);
-        font-size: 32px;
-        font-weight: 400;
-        color:white;
+        
     }
 
-    .m-com-button > button{
+    .m-com-button > a > button{
         background-color: var(--pink);
         width:fit-content;
-        padding: 10px 60px;
+        width: 150px;
+        height:50px;
         border-radius: 40px;
+        font-family: var(--ibbara);
+        font-size: 23px;
+        font-weight: 400;
+        color:white;
     }
 }

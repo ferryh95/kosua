@@ -23,7 +23,7 @@
             <nav class="footer-side-menu">
                 <ul>
                     <li><a href="about.php">About this site</a></li>
-                    <li>Privacy policy</li>
+                    <li><a href="privacy-policy.php">Privacy policy</a></li>
                     <li>Site map</li>
                     <li class="footer-contact">
                         <button>Contact</button>

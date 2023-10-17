@@ -55,9 +55,11 @@
             Dan Co., Ltd.//all rights reserved
         </div>
         <div class="m-com-button">
-            <button>
-                Contact us
-            </button>
+            <a href="contact-us.php">
+                <button>
+                    Contact us
+                </button>
+            </a>
         </div>
     </div>
     <!--desktop ver-->
@@ -70,9 +72,11 @@
             <span class="com-text-2-2">Dan Co., Ltd.</span>
         </div>
         <div class="com-button">
-            <button>
-                Contact us
-            </button>
+            <a href="contact-us.php">
+                <button>
+                    Contact us
+                </button>
+            </a>
         </div>
     </div>
 </main>
